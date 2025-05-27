@@ -27,10 +27,14 @@ class TicTacToe:
 
 
 
-    def __init__(self):
-        self.__tab = [[-1,-1,-1],[-1,-1,-1],[-1,-1,-1]]
-        self.__turn = 0
-        self.__winner = -1
+    def __init__(self,tab=[[-1,-1,-1],[-1,-1,-1],[-1,-1,-1]],turn = 0, winner = -1):
+        self.__tab = tab
+        self.__turn = turn
+        self.__winner = winner
+
+    def copy(self):
+        return TicTacToe([[i for i in line] for line in self.__tab],self.__turn,self.__winner)
+
 
     def display(self):
         """

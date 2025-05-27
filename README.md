@@ -1,4 +1,4 @@
-# TicTacToe - Simple Python Implementation
+# Tic-Tac-Toe
 
 This project provides a simple implementation of the classic TicTacToe game in Python. The core logic and game mechanics are encapsulated within the `tictactoe.py` file.
 

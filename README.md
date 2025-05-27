@@ -57,3 +57,7 @@ if g.getWinner()==-1:
 else:
     print(f"The winner is {"O" if g.getWinner() else "X"}")
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

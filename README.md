@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Tic-Tac-Toe
 
 This project provides a simple implementation of the classic TicTacToe game in Python. The core logic and game mechanics are encapsulated within the `tictactoe.py` file.

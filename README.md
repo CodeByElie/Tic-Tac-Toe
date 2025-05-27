@@ -20,7 +20,7 @@ The `tictactoe.py` module defines a `TicTacToe` class that manages the game boar
    Use the `play(x,y)` method to place a mark for the current player at the specified position (row and column indices start at 0):
 
    ```python
-   game.make_move(0, 1)  # Player X moves to the top-middle cell
+   game.play(0, 1)  # Player X moves to the top-middle cell
    ```
 
 3. **Checking Game Status**
@@ -34,7 +34,7 @@ The `tictactoe.py` module defines a `TicTacToe` class that manages the game boar
 
 ## Example
 
-This is a simple usage of this file :
+This is a simple usage of the `TicTacToe` class :
 
 ```python
 from tictactoe import TicTacToe

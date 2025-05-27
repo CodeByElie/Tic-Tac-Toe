@@ -90,6 +90,9 @@ class TicTacToe:
         if self.__tab[0][2]==self.__tab[1][1] and self.__tab[1][1]==self.__tab[2][0] and self.__tab[1][1]!=-1:
             self.__winner = self.__tab[1][1]
             return True
+        if len(self.getFreeCells())==0:
+            self.__winner = -1
+            return True
         return False
 
     def getWinner(self) -> int:

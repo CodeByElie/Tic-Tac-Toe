@@ -13,4 +13,7 @@ while not g.isEnded():
         g.play(c[0],c[1])
 
 g.display()
-print(f"The winner is {"O" if g.getWinner() else "X"}")
+if g.getWinner()==-1:
+    print("Draw")
+else:
+    print(f"The winner is {"O" if g.getWinner() else "X"}")

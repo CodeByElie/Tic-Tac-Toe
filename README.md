@@ -31,6 +31,15 @@ The `tictactoe.py` module defines a `TicTacToe` class that manages the game boar
 
 4. **Displaying the Board**  
    Use the `display()` method to print the current state of the game board to the console.
+   ```console
+    -------------
+    | O | X | O |
+    -------------
+    | O |   | X |
+    -------------
+    | X | X | O |
+    -------------
+   ```
 
 ## Example
 
